@@ -1,0 +1,8 @@
+num = input("Enter a number please: ")
+sum_num = 0
+for i in range(len(num)):
+  sum_num += int(num[i])**len(num)
+if sum_num == int(num):
+    print("it is an Armstrong number.")
+else:
+    print("it is not an Armstrong number.")
